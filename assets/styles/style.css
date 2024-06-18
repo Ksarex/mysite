@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header {
+    background-color: #111111;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+    height: 100%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+header .container a:hover {
+    color: lightgray;
+    transition: 0.5s;
+}
+
+header .container .nav {
+    width: 100%;
+}
