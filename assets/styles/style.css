@@ -17,8 +17,8 @@ a {
 header {
     background-color: #111111;
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -41,4 +41,108 @@ header .container a:hover {
 
 header .container .nav {
     width: 100%;
+}
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.main .container h1 {
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 35px;
+    font-weight: 600;
+    color:#111111;
+}
+
+.main .container h2 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color:#111111;
+}
+
+.main .container p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color:#111111;
+}
+
+.main .container img {
+    border-radius: 30px;
+}
+
+.main .container button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #111111;
+    font-weight: 600;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.main .container button p {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.main .container button:hover {
+    background-color: #333333;
+    transition: 0.5s;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+    .main .container img {
+        margin-bottom: 35px;
+    }
+    
+    .main .container p {
+        text-align: center;
+    }
+    .main .container .leftsite{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main .container .content{
+        flex-direction: column-reverse !important;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+    .main .container h2{
+        font-size:40px;
+    }
+    .main .container h1{
+        font-size: 50px;
+    }
+    .main .container p{
+        font-size: 16px;
+        margin-top: ;
+    }
 }
