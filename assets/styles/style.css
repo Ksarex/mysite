@@ -152,17 +152,20 @@ header .container .nav {
     font-size: 60px;
     text-align: center;
     margin-bottom: 30px;
+    color:#111111;
 }
 .portfolio .container .description p{
     font-size: 30px;
     text-align: center;
     width: 70%;
+    color:#111111;
 }
 .portfolio .container .description{
     margin-bottom: 60px;
 }
 .portfolio .container .card-text{
     font-size: 16px;
+    color:#111111;
 }
 .portfolio .container .btn{
     background-color: #111111;
@@ -170,12 +173,29 @@ header .container .nav {
     border-radius: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 60%;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.portfolio .container .btn:hover{
+    background-color: #333333;
+    transition: 0.5s;
+
 }
 .portfolio .container .card{
-    border:2px solid #111111
+    border:2px solid #111111;
+    padding: 0px;
 }
+.portfolio .container img{
+    width: 100%;
+}
+.portfolio .container h1{
+    font-weight: 600;
+}
+.portfolio .container .card-title{
+    font-weight: 600;
+}
+
 
 @media (max-width: 1200px) {
     .container{
@@ -201,6 +221,11 @@ header .container .nav {
     .main .container .content{
         flex-direction: column-reverse !important;
     }
+    .portfolio .container .sites{
+        flex-direction: column;
+        align-items: center;
+        gap:30px
+    }
 }
 @media (max-width: 768px) {
     .container{
@@ -225,10 +250,13 @@ header .container .nav {
         width:  98%;
     }
     .main .container h2{
-        font-size:40px;
+        font-size:30px;
     }
     .main .container h1{
-        font-size: 50px;
+        font-size: 40px;
+    }
+    .main .container img{
+        margin-bottom: 20px;
     }
     .main .container p{
         font-size: 16px;
@@ -260,5 +288,13 @@ header .container .nav {
         padding-bottom: 35px;
         padding-left: 35px;
         padding-right: 35px;
+    }
+    .portfolio .container h1{
+        font-size:40px;
+        margin-bottom: 20px;
+    }
+    .portfolio .container .description p{
+        font-size:20px;
+        margin-bottom: 0px;
     }
 }
