@@ -95,6 +95,87 @@ header .container .nav {
     background-color: #333333;
     transition: 0.5s;
 }
+.skills{
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skills .container .leftsite,.rightsite{
+    background-color: white;
+    border-radius: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.skills .container .leftsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#111111;
+    font-weight: 600;
+}
+.skills .container .rightsite h1{
+    font-size:60px;
+    margin-bottom: 70px;
+    color:#111111;
+    font-weight: 600;
+}
+.skills .container .leftsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    color:#111111;
+    text-decoration: underline;
+}
+.skills .container .rightsite h2{
+    font-size:35px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    color:#111111;
+}
+.skills .container .leftsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#111111;
+}
+.skills .container .rightsite p{
+    font-size:20px;
+    margin-bottom: 30px;
+    color:#111111;
+}
+.portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolio .container h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.portfolio .container .description p{
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+}
+.portfolio .container .description{
+    margin-bottom: 60px;
+}
+.portfolio .container .card-text{
+    font-size: 16px;
+}
+.portfolio .container .btn{
+    background-color: #111111;
+    color:white;
+    border-radius: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.portfolio .container .card{
+    border:2px solid #111111
+}
 
 @media (max-width: 1200px) {
     .container{
@@ -130,6 +211,14 @@ header .container .nav {
     .container{
         width:  98%;
     }
+    .skills .container .leftsite,.rightsite{
+        background-color: white;
+        border-radius: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 @media (max-width: 480px) {
     .container{
@@ -143,6 +232,33 @@ header .container .nav {
     }
     .main .container p{
         font-size: 16px;
-        margin-top: ;
+    }
+    .skills .container .leftsite h1{
+        font-size:40px;
+        margin-bottom: 60px;
+    }
+    .skills .container .rightsite h1{
+        font-size:40px;
+        margin-bottom: 60px;
+    }
+    .skills .container .leftsite h2{
+        font-size:25px;
+    }
+    .skills .container .rightsite h2{
+        font-size:25px;
+    }
+    .skills .container .leftsite p{
+        font-size:16px;
+    }
+    .skills .container .rightsite p{
+        font-size:16px;
+    }
+    .skills .container .leftsite,.rightsite{
+        background-color: white;
+        border-radius: 50px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
