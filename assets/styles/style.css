@@ -199,7 +199,7 @@ header .container .nav {
 }
 
 .form{
-
+    padding-top: 100px;
     padding-bottom: 100px;
 }
 .form .container h1{
@@ -237,6 +237,29 @@ header .container .nav {
     background-color: #333333;
     transition: 0.5s;
 }
+.carier{
+    background-image: url(../img/BG.jpg);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.carier .container .leftsite p{
+    font-size:20px;
+}
+.carier .container .leftsite{
+    background-color: white;
+    border-radius: 50px;
+    padding: 50px;
+    color:#111111;
+}
+.carier .container  h1{
+    font-size:60px;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+}
+.carier .container  img{
+    border-radius: 50px;
+}
 @media (max-width: 1200px) {
     .container{
         width: 950px;
@@ -263,6 +286,11 @@ header .container .nav {
     }
     .portfolio .container .sites{
         flex-direction: column;
+        align-items: center;
+        gap:30px
+    }
+    .carier .container .all{
+        flex-direction: column-reverse !important;
         align-items: center;
         gap:30px
     }
@@ -339,5 +367,14 @@ header .container .nav {
     }
     .form .container h1{
         font-size:40px;
+    }
+    .carier .container  h1{
+        font-size:40px;
+        font-weight: 600;
+        text-align: center;
+        color:white;
+    }
+    .carier .container .leftsite{
+        padding: 30px;
     }
 }
