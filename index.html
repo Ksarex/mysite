@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <header>
         <div class="container">
             <ul class="nav justify-content-center gap-3">
@@ -33,6 +34,24 @@
                     <a class="nav-link" href="#">Обратная связь</a>
                 </li>
             </ul>
+            <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+                <div class=" p-4">
+                    <p class="text-body-emphasis h4 text-white">Обо мне</p>
+                    <p class="text-body-emphasis h4 text-white">Мои скиллы</p>
+                    <p class="text-body-emphasis h4 text-white">Портфолио</p>
+                    <p class="text-body-emphasis h4 text-white">Карьера</p>
+                    <p class="text-body-emphasis h4 text-white">Обратная связь</p>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
         </div>
     </header>
     <section class="main">
@@ -136,7 +155,8 @@
                     <img src="./assets/img/monochrome.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column align-items-center">
                         <h5 class="card-title text-center">Monochrome</h5>
-                        <p class="card-text mt-1 text-center">Самый сложный сайт, который я когда либо верстал, но получилось вполне
+                        <p class="card-text mt-1 text-center">Самый сложный сайт, который я когда либо верстал, но
+                            получилось вполне
                             стильно и круто!
                             Было много ошибок и неудач, но в итоге у меня все вышло!</p>
                         <a href="#" class="btn btn-primary mt-4">Посетить</a>
@@ -146,7 +166,8 @@
                     <img src="./assets/img/filosofia.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column align-items-center">
                         <h5 class="card-title text-center">Filosofia</h5>
-                        <p class="card-text mt-1 text-center">Один из самых моих любимых сайтов с тематикой авто-сервиса с
+                        <p class="card-text mt-1 text-center">Один из самых моих любимых сайтов с тематикой авто-сервиса
+                            с
                             использованием бутстрапа. Здесь есть анимации и слайдеры</p>
                         <a href="#" class="btn btn-primary mt-4">Посетить</a>
                     </div>
@@ -204,35 +225,49 @@
                 <div class="col-12">
                     <form>
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Имя</label>
-                          <input type="text" class="form-control" aria-describedby="emailHelp">
+                            <label for="exampleInputEmail1" class="form-label">Имя</label>
+                            <input type="text" class="form-control" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Фамилия</label>
-                          <input type="text" class="form-control">
+                            <label for="exampleInputPassword1" class="form-label">Фамилия</label>
+                            <input type="text" class="form-control">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Отчество</label>
-                          <input type="text" class="form-control">
+                            <label for="exampleInputPassword1" class="form-label">Отчество</label>
+                            <input type="text" class="form-control">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Email</label>
-                          <input type="email" class="form-control">
+                            <label for="exampleInputPassword1" class="form-label">Email</label>
+                            <input type="email" class="form-control">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Телефон</label>
-                          <input type="number" class="form-control">
+                            <label for="exampleInputPassword1" class="form-label">Телефон</label>
+                            <input type="number" class="form-control">
                         </div>
-                      </form>
+                    </form>
                 </div>
             </div>
             <div class="row mt-5">
                 <div class="col-1">
-                    <button><p class="mb-0">Отправить</p></button>
+                    <button>
+                        <p class="mb-0">Отправить</p>
+                    </button>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col col-lg-6 col-md-12">
+                    <p>2024 Все права защищены</p>
+                </div>
+                <div class="col col-lg-6 col-md-12">
+                    <p class="right">Политика конфиденциальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
