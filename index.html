@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,28 +22,32 @@
         <div class="container">
             <ul class="nav justify-content-center gap-3">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Обо мне</a>
+                    <a class="nav-link" href="#main">Обо мне</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Мои скиллы</a>
+                    <a class="nav-link" href="#skills">Мои скиллы</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Портфолио</a>
+                    <a class="nav-link" href="#portfolio">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Карьера</a>
+                    <a class="nav-link" href="#carier">Карьера</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Обратная связь</a>
+                    <a class="nav-link" href="#form">Обратная связь</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#logos">Контакты</a>
                 </li>
             </ul>
             <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
                 <div class=" p-4">
-                    <p class="text-body-emphasis h4 text-white">Обо мне</p>
-                    <p class="text-body-emphasis h4 text-white">Мои скиллы</p>
-                    <p class="text-body-emphasis h4 text-white">Портфолио</p>
-                    <p class="text-body-emphasis h4 text-white">Карьера</p>
-                    <p class="text-body-emphasis h4 text-white">Обратная связь</p>
+                    <a href="#main"><p class="text-body-emphasis h4 text-white text-left">Обо мне</p></a>
+                    <a href="#skills"><p class="text-body-emphasis h4 text-white">Мои скиллы</p></a>
+                    <a href="#portfolio"><p class="text-body-emphasis h4 text-white">Портфолио</p></a>
+                    <a href="#carier"><p class="text-body-emphasis h4 text-white">Карьера</p></a>
+                    <a href="#form"><p class="text-body-emphasis h4 text-white">Обратная связь</p></a>
+                    <a href="#logos"><p class="text-body-emphasis h4 text-white">Контакты</p></a>
                 </div>
             </div>
             <nav class="navbar navbar-dark">
@@ -54,7 +61,7 @@
             </nav>
         </div>
     </header>
-    <section class="main">
+    <section class="main" id="main">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -74,9 +81,9 @@
                         Мне нравится тут учиться. Изучаю такие языки программирования, как Python, HTML, CSS и вскором
                         времени начну изучать другие.Надеюсь вам понравятся мои работы и я сам в целом!
                     </p>
-                    <button>
-                        <p>Связаться</p>
-                    </button>
+                    <a href="#form"><button>
+                            <p>Связаться</p>
+                        </button></a>
                 </div>
                 <div class="col col-lg-5 col-sm-12 rightsite">
                     <img class="img-fluid" src="./assets/img/me main.jpg">
@@ -84,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section class="skills d-flex align-items-center">
+    <section class="skills d-flex align-items-center" id="skills">
         <div class="container">
             <div class="row gap-3 d-flex justify-content-between">
                 <div class="col col-lg-5 col-md-12 leftsite">
@@ -128,7 +135,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -148,7 +155,7 @@
                         <p class="card-text mt-1 text-center">Этот сайт является самым первым, который я написал сам. По
                             началу было
                             сложно, но я все освоил. Присутствуют различные анимации и переключатели.</p>
-                        <a href="#" class="btn btn-primary mt-4">Посетить</a>
+                        <a href="https://allow4ik.github.io/MoGOmOGO/" class="btn btn-primary mt-4">Посетить</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -159,7 +166,7 @@
                             получилось вполне
                             стильно и круто!
                             Было много ошибок и неудач, но в итоге у меня все вышло!</p>
-                        <a href="#" class="btn btn-primary mt-4">Посетить</a>
+                        <a href="https://allow4ik.github.io/monochromchik/" class="btn btn-primary mt-4">Посетить</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
@@ -169,13 +176,13 @@
                         <p class="card-text mt-1 text-center">Один из самых моих любимых сайтов с тематикой авто-сервиса
                             с
                             использованием бутстрапа. Здесь есть анимации и слайдеры</p>
-                        <a href="#" class="btn btn-primary mt-4">Посетить</a>
+                        <a href="https://ksarex1.github.io/bubustrap/" class="btn btn-primary mt-4">Посетить</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="carier">
+    <section class="carier" id="carier">
         <div class="container d-flex align-items-center flex-column">
             <div class="row">
                 <div class="col-12 d-flex">
@@ -214,7 +221,7 @@
             </div>
         </div>
     </section>
-    <section class="form">
+    <section class="form" id="form">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -256,14 +263,36 @@
             </div>
         </div>
     </section>
+    <section class="logos d-flex align-items-center" id="logos">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="mb-5">Контакты</h1>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col d-flex icons gap-5 justify-content-center">
+                    <a href="https://vk.com/id440735836"><i class="fa-brands fa-vk ic" style="color: #ffffff;"></i></a>
+                    <a href="https://github.com/Ksarex"><i class="fa-brands fa-square-github ic"
+                            style="color: #ffffff;"></i></a>
+                    <a href="https://t.me/allow4ik"><i class="fa-brands fa-telegram ic" style="color: #ffffff;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOxfBzor8kNydf6O_bVYpcg"><i
+                            class="fa-brands fa-youtube ic" style="color: #ffffff;"></i></a>
+                    <a href="https://www.tiktok.com/login/?ysclid=lxlua48n2k492766076"><i class="fa-brands fa-tiktok "
+                            style="color: #ffffff;"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row d-flex justify-content-between">
                 <div class="col col-lg-6 col-md-12">
-                    <p>2024 Все права защищены</p>
+                    <p><u>2024 Все права защищены</u></p>
                 </div>
                 <div class="col col-lg-6 col-md-12">
-                    <p class="right">Политика конфиденциальности</p>
+                    <p class="right"><u>Политика конфиденциальности</u></p>
                 </div>
             </div>
         </div>

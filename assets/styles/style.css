@@ -42,7 +42,9 @@ header .container a:hover {
 header .container .nav {
     width: 100%;
 }
-
+header .collapse a{
+    text-align: left;
+}
 .main {
     padding-top: 50px;
     padding-bottom: 75px;
@@ -75,7 +77,7 @@ header .container .nav {
 .main .container button {
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    width: 50%;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,19 +309,48 @@ footer .container p {
     color: white;
     margin-bottom: 0px;
 }
-.collapse{
+a{
+    text-decoration: none;
+}
+.collapse {
     display: none;
 }
-.collapse p{
-    font-size:20px;
+
+.collapse p {
+    font-size: 20px;
     margin-bottom: 10px;
 }
-.navbar{
+
+.navbar {
     display: none;
 }
-.bg-dark{
+
+.bg-dark {
     background-color: #111111;
 }
+
+.logos {
+    background-color: #111111;
+    height: 300px;
+    border-bottom: 2px solid #333333;
+}
+.logos .container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.logos .fa-brands {
+    transform: scale(2);
+}
+.logos .ic{
+    margin-right: 40px;
+}
+.logos h1{
+    font-weight: 600;
+    font-size: 60px;
+    color:white;
+    text-align: center;
+}
+
 
 @media (max-width: 1200px) {
     .container {
@@ -371,19 +402,22 @@ footer .container p {
         text-align: center;
         margin-top: 20px;
     }
-    .nav{
+
+    .nav {
         display: none;
         background-color: #333333;
     }
-    .collapse{
+
+    .collapse {
         display: block;
         background-color: #333333;
         border-radius: 30px;
     }
-    .navbar{
+
+    .navbar {
         display: block;
         background-color: #111111;
-    
+
     }
 }
 
@@ -499,5 +533,8 @@ footer .container p {
     footer .container .right {
         text-align: center;
         margin-top: 20px;
+    }
+    .logos .ic{
+        margin-right: 0px;
     }
 }
